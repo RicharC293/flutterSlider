@@ -232,7 +232,6 @@ class _SlideShowModel with ChangeNotifier {
   double get currentPage => this._currentPage;
   set currentPage(double currentPage) {
     this._currentPage = currentPage;
-    //print('Provider: $currentPage');
     notifyListeners();
   }
 
