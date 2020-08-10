@@ -1,6 +1,7 @@
 // import 'package:animaciones/src/pages/animaciones_page.dart';
 // import 'package:animaciones/src/labs/circular_progress_page.dart';
-import 'package:animaciones/src/pages/emergency_page.dart';
+//import 'package:animaciones/src/pages/emergency_page.dart';
+import 'package:animaciones/src/pages/slivers_page.dart';
 // import 'package:animaciones/src/pages/grafica_circulares_page.dart';
 // import 'package:animaciones/src/labs/slideShow_page.dart';
 // import 'package:animaciones/src/pages/pinterest_page.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: EmergencyPage(),
+      home: SliverListPage(),
     );
   }
 }
